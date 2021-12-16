@@ -1,0 +1,32 @@
+## Olivia McGill
+
+As a content writer specializing in learning content, I synthesize research and make it accessible, organize and edit content so it’s logically sequenced, and aim for cultural responsiveness.
+
+### What I Do
+
+*Writing & Editing*
+
+Learning focused - Online course scripts, educational materials, guides
+Research-based - White papers, proposals, newsletters, blogs
+Accessible - Knowledge bases, internal wikis, website copy, UX copy
+
+*DEI Content*
+
+I spent 4+ years immersed in psychology and sociology research focused on diversity, equity, and inclusion, giving me in-depth knowledge of DEI topics like hiring, mentoring, authentic leadership, and allyship.
+
+### My Work
+- Sample course script
+- Sample storyboard
+- Sample facilitator's guide
+- [What Does Bullying Have to Do with DE&I? Blog post](https://www.vectorsolutions.com/resources/blogs/bullying-diversity-equity-inclusion/)
+- How do we define the qualities of a good leader? Blog post
+- Caregiver Corner newsletter
+- App and text message copy 
+- Newsletter copy 
+- Support & Services webpage
+
+### Reach Out
+
+I'm always looking for new ways to engage with DE&I initiatives, online learning programs, and purpose-driven companies seeking writers.
+
+Contact me at [omcgill47@gmail.com](mailto://omcgill47@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/oliviagmcgill).
