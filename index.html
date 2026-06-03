@@ -1,69 +1,172 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" />
-  <style>
-    body {
-      font-family: Playfair Display, Arial, Helvetica, sans-serif;
-      text-align: center;
-      padding-top: 40px;
-      padding-right: 10%;
-      padding-bottom: 40px;
-      padding-left: 10%;
-      background-color: #ffffff;
-    }
-    h2 {
-      padding-top: 0px;
-    }
-    h3 {
-      padding-top: 40px;
-    }
-    h4 {
-      font-style: italic;
-      margin-bottom: 0;
-    }
-    p {
-      line-height: 16pt;
-      margin: 0;
-    }
-  </style>
-  <title>Olivia G. McGill</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Olivia G. McGill — Writer &amp; Editor</title>
+  <meta name="description" content="Thought leadership and learning content for organizations that believe language shapes culture." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <h2>Olivia McGill</h2>
-  <p>I’m a writer specializing in thought leadership and learning content. I'm skilled at synthesizing research findings and organizing information into accessible and logically sequenced content.</p>
 
-  <h3>What I Do</h3>
-  <h4>Writing & Editing</h4>
-  <p>
-    Learning focused - Online course scripts, instructional materials, guides</br>
-    Research based - White papers, proposals, newsletters, blogs</br>
-    Accessible - Knowledge bases, internal wikis, website copy, UX copy
-  </p>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">Olivia G. McGill</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="nav-links">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#about">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <h4>DE&I Content</h4>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <p class="kicker">Writer · Editor · Thought Leadership</p>
+      <h1 class="headline">Words that<br>move minds.</h1>
+      <div class="byline-row">
+        <span>Olivia G. McGill</span>
+        <span class="byline-sep">·</span>
+        <span>New York</span>
+      </div>
+      <p class="hero-body">I'm a writer specializing in thought leadership and learning content — skilled at synthesizing research and organizing information into accessible, logically sequenced work for organizations that believe language shapes culture.</p>
+      <a href="#work" class="cta-btn">View my work</a>
+    </div>
+    <div class="hero-right">
+      <img src="assets/watercolor-texture.jpg" alt="Watercolor wash in teal and warm tones" class="hero-img" />
+    </div>
+  </section>
 
-  <p>I spent 4+ years immersed in psychology and sociology research focused on diversity, equity, and inclusion, giving me in-depth knowledge of DE&I in terms of hiring, mentoring, authentic leadership, and allyship.</p>
+  <!-- SERVICES -->
+  <section class="services">
+    <div class="services-col">
+      <span class="service-label service-label--teal">Writing &amp; Editing</span>
+      <h2 class="service-heading">Learning-focused content</h2>
+      <p class="service-body">Online course scripts, instructional materials, guides, white papers, proposals, newsletters, blogs, knowledge bases, website copy, UX copy.</p>
+    </div>
+    <div class="services-col">
+      <span class="service-label service-label--terra">Research &amp; Strategy</span>
+      <h2 class="service-heading">Synthesis you can use</h2>
+      <p class="service-body">Skilled at organizing complex research findings into accessible, logically sequenced content for any audience or format.</p>
+    </div>
+    <div class="services-col">
+      <span class="service-label service-label--magenta">DE&amp;I Content</span>
+      <h2 class="service-heading">Four years in the research</h2>
+      <p class="service-body">In-depth knowledge of DE&amp;I in hiring, mentoring, authentic leadership, and allyship — grounded in psychology and sociology research.</p>
+    </div>
+  </section>
 
-  <h3>My Work</h3>
-  <p>
-    <a href="files/sample-course-copy.pdf">Sample course copy</a></br>
-    <a href="files/sample-course-script.pdf">Sample course script</a></br>
-    <a href="files/sample-storyboard.pdf">Sample storyboard</a></br>
-    <a href="files/sample-facilitators-guide.pdf">Sample facilitator's guide</a></br>
-    <a href="files/FreedomCare Whitepaper_0531.pdf">White paper</a></br>
-    <a href="https://www.vectorsolutions.com/resources/blogs/bullying-diversity-equity-inclusion/">What Does Bullying Have to Do with DE&I? blog post</a></br>
-    <a href="https://www.vectorsolutions.com/resources/blogs/how-do-we-define-the-qualities-of-a-good-leader/">How Do We Define the Qualities of a Good Leader? blog post</a></br>
-    <a href="files/sample-newsletter-july.pdf">Quarterly Newsletter</a></br>
-    <a href="files/newsletter-copy.pdf">Weekly Newsletter copy</a></br>
-  </p>
+  <!-- SELECTED WORK -->
+  <section class="work" id="work">
+    <div class="work-header">
+      <span class="section-label">Selected work</span>
+      <a href="#work" class="see-all">See all →</a>
+    </div>
+    <ul class="work-list">
+      <li class="work-item">
+        <a href="/files/sample-course-copy.pdf" target="_blank" rel="noopener" class="work-link">
+          <span class="work-title">Sample Course Copy</span>
+          <span class="work-meta"><span class="work-tag">Instructional</span> →</span>
+        </a>
+      </li>
+      <li class="work-item">
+        <a href="/files/sample-course-script.pdf" target="_blank" rel="noopener" class="work-link">
+          <span class="work-title">Sample Course Script</span>
+          <span class="work-meta"><span class="work-tag">Instructional</span> →</span>
+        </a>
+      </li>
+      <li class="work-item">
+        <a href="/files/sample-storyboard.pdf" target="_blank" rel="noopener" class="work-link">
+          <span class="work-title">Sample Storyboard</span>
+          <span class="work-meta"><span class="work-tag">Instructional</span> →</span>
+        </a>
+      </li>
+      <li class="work-item">
+        <a href="/files/sample-facilitators-guide.pdf" target="_blank" rel="noopener" class="work-link">
+          <span class="work-title">Sample Facilitator's Guide</span>
+          <span class="work-meta"><span class="work-tag">Instructional</span> →</span>
+        </a>
+      </li>
+      <li class="work-item">
+        <a href="/files/FreedomCare Whitepaper_0531.pdf" target="_blank" rel="noopener" class="work-link">
+          <span class="work-title">FreedomCare White Paper</span>
+          <span class="work-meta"><span class="work-tag">Research</span> →</span>
+        </a>
+      </li>
+      <li class="work-item">
+        <a href="https://www.vectorsolutions.com/resources/blogs/bullying-diversity-equity-inclusion/" target="_blank" rel="noopener" class="work-link">
+          <span class="work-title">What Does Bullying Have to Do with DE&amp;I?</span>
+          <span class="work-meta"><span class="work-tag">Editorial</span> →</span>
+        </a>
+      </li>
+      <li class="work-item">
+        <a href="https://www.vectorsolutions.com/resources/blogs/how-do-we-define-the-qualities-of-a-good-leader/" target="_blank" rel="noopener" class="work-link">
+          <span class="work-title">How Do We Define the Qualities of a Good Leader?</span>
+          <span class="work-meta"><span class="work-tag">Editorial</span> →</span>
+        </a>
+      </li>
+      <li class="work-item">
+        <a href="/files/sample-newsletter-july.pdf" target="_blank" rel="noopener" class="work-link">
+          <span class="work-title">Quarterly Newsletter</span>
+          <span class="work-meta"><span class="work-tag">Writing</span> →</span>
+        </a>
+      </li>
+      <li class="work-item work-item--last">
+        <a href="/files/newsletter-copy.pdf" target="_blank" rel="noopener" class="work-link">
+          <span class="work-title">Weekly Newsletter Copy</span>
+          <span class="work-meta"><span class="work-tag">Writing</span> →</span>
+        </a>
+      </li>
+    </ul>
+  </section>
 
-  <h3>Reach Out</h3>
+  <!-- PHOTO STRIP DIVIDER -->
+  <div class="photo-strip" aria-hidden="true">
+    <img src="assets/watercolor-texture.jpg" alt="" class="photo-strip-img" />
+  </div>
 
-  <p>I'm always looking for new ways to engage with DE&I initiatives, digital learning programs, and purpose-driven companies seeking writers.</p>
-  <br>
-  <p>Contact me on <a href="https://www.linkedin.com/in/oliviagmcgill">LinkedIn</a>.
+  <!-- ABOUT / CONTACT -->
+  <section class="about" id="about">
+    <div class="about-left">
+      <p class="about-display">On<br>writing<br>&amp; reach.</p>
+    </div>
+    <div class="about-right">
+      <p>I'm always looking for new ways to engage with DE&amp;I initiatives, digital learning programs, and purpose-driven companies seeking writers.</p>
+      <p>I'm skilled at synthesizing research findings and organizing information into accessible, logically sequenced content — for any audience, any format, any platform.</p>
+      <p>Contact me on <a href="https://www.linkedin.com/in/oliviagmcgill" target="_blank" rel="noopener" class="about-link">LinkedIn</a>.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <p class="footer-name">Olivia G. McGill — Writer &amp; Editor</p>
+        <p class="footer-credit">Photo: Dima Wuks / Unsplash</p>
+      </div>
+      <div class="footer-right">
+        <a href="https://www.linkedin.com/in/oliviagmcgill" target="_blank" rel="noopener" class="footer-link">LinkedIn →</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const links = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      links.classList.toggle('is-open', !open);
+    });
+  </script>
+
 </body>
 </html>
