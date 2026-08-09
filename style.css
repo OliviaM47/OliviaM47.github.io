@@ -31,22 +31,6 @@ a:focus-visible {
   outline-offset: 2px;
 }
 
-/* Nav */
-
-.nav {
-  border-bottom: 2px solid var(--ink);
-  padding: 1.1rem 2.5rem;
-  background: var(--cream);
-}
-
-.nav__name {
-  margin: 0;
-  font-family: 'Spectral', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-}
-
 /* Hero */
 
 .hero {
@@ -142,6 +126,19 @@ a:focus-visible {
   font-weight: 300;
   font-size: 20px;
   color: var(--ink);
+}
+
+.work__item--placeholder .work__title,
+.work__item--placeholder .work__soon {
+  color: var(--mid);
+}
+
+.work__soon {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mid);
 }
 
 .work__arrow {
