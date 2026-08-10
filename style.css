@@ -128,19 +128,6 @@ a:focus-visible {
   color: var(--ink);
 }
 
-.work__item--placeholder .work__title,
-.work__item--placeholder .work__soon {
-  color: var(--mid);
-}
-
-.work__soon {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--mid);
-}
-
 .work__arrow {
   font-family: 'DM Sans', sans-serif;
   font-size: 16px;
