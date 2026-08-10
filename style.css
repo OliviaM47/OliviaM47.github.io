@@ -170,6 +170,11 @@ a:focus-visible {
   align-items: center;
 }
 
+.footer__links {
+  display: flex;
+  gap: 1.5rem;
+}
+
 .footer__email {
   font-family: 'DM Sans', sans-serif;
   font-size: 12px;
