@@ -153,13 +153,6 @@ a:focus-visible {
   color: var(--ink);
 }
 
-.about__credentials {
-  margin: 1rem 0 0;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
-  color: #999;
-}
-
 /* Footer */
 
 .footer {
