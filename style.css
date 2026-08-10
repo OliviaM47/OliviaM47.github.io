@@ -45,6 +45,7 @@ a:focus-visible {
   padding: 3rem 2.5rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .hero__kicker {
@@ -99,6 +100,7 @@ a:focus-visible {
 
 .work__item {
   border-bottom: 1px solid var(--rule);
+  padding: 1rem 0;
 }
 
 .work__item:last-child {
@@ -109,7 +111,23 @@ a:focus-visible {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 1rem 0;
+  text-decoration: none;
+}
+
+.work__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.work__title-group {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.work__title-link {
   text-decoration: none;
 }
 
@@ -119,6 +137,12 @@ a:focus-visible {
   font-weight: 300;
   font-size: 20px;
   color: var(--ink);
+}
+
+.work__meta {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  color: #999;
 }
 
 .work__arrow {
@@ -145,7 +169,6 @@ a:focus-visible {
 
 .about__body {
   margin: 0;
-  max-width: 560px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 300;
   font-size: 14px;
